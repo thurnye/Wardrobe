@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+}
+.appHeader{
+  flex: 0 1 auto;
+}
+.appContents{
+  flex: 1 1 auto;
+}
+.appFooter{
+  flex: 0 1 auto;
+}

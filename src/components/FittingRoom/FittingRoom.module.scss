@@ -1,0 +1,19 @@
+.FittingRoom {
+    height: 100%;
+    .fittingContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        .wardrobeFittingRoom, 
+        .customDesignFittingRoom{
+            width: 25%;
+            height: inherit;
+        }
+        .silhouetteFittingRoom{
+            width: 50%;
+            margin: 0 10px;
+            height: inherit;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.ColorPallette {
+    .colorContainer{
+        display: flex;
+        align-items: center;
+    }
+    .categories{
+        width: 150px;
+    }
+    .cardContainer{
+        border: none;
+        box-shadow: none;
+        margin: 0 25px 25px 25px;
+    }
+}
