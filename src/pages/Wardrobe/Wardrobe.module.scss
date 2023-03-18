@@ -12,11 +12,10 @@
         .infographicContainer{
             width: 25%;
             margin: 0 10px;
-            height: 100%;
         }
         .displayMirror{
             border: 1px solid grey;
-            height: 40vh;
+            height: 45vh;
             margin-bottom: 10px;
             flex: 0 1 auto;
         }
@@ -35,6 +34,7 @@
             }
         }
         .displayInfo{
+            height: 15vh;
             border: 1px solid grey;
             flex: 1 1 auto;
         }

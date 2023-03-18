@@ -1,0 +1,51 @@
+.Closet {
+    height: 100%;
+    padding: 10px;
+    .wardrobeClosetContainer{
+        height: 100%;
+        .rightSideContainer,
+        .leftSideContainer{
+            height: inherit;
+            display: flex;
+            flex-direction: column;
+
+        }
+        .suitContainer{
+            height: 25vh;
+            border: 1px solid black;
+            margin: 5px;
+            flex: 0 1 auto;
+        }
+        .shirtContainer{
+            height: 25vh;
+            border: 1px solid black;
+            margin: 5px;
+            flex: 0 1 auto;
+        }
+        .accessoriesContainer{
+            border: 1px solid black;
+            margin: 5px;
+            height: 15vh;
+            // flex: 1 0 auto;
+        }
+        .rightSideDrawerContainer, 
+        .leftSideDrawerContainer{
+            height: 5vh;
+            border: 1px solid black;
+            margin: 5px;
+            flex: 0 1 auto;
+        }
+        .topShelfContainer{
+            height: 51.7vh;
+            border: 1px solid black;
+            margin: 5px;
+            flex: 0 1 auto;
+        }
+        .shoesContainer{
+            border: 1px solid black;
+            margin: 5px;
+            height: 15vh;
+            // flex: 1  auto;
+        }
+    }
+}

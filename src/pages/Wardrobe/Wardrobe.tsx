@@ -1,5 +1,6 @@
-import { Box, Card, CardContent, Typography } from '@mui/material';
 import React, { FC } from 'react';
+import { Box, Card, CardContent, Typography } from '@mui/material';
+import Closet from '../../components/Closet/Closet';
 import styles from './Wardrobe.module.scss';
 
 interface WardrobeProps {}
@@ -11,11 +12,9 @@ const Wardrobe: FC<WardrobeProps> = () => (
         {/* Closet */}
         <Box className={styles.closetContainer}>
           <Card sx={{height: 'inherit'}}>
-            <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                CLOSET
-              </Typography>
-            </CardContent>
+            {/* <CardContent> */}
+              <Closet/>
+            {/* </CardContent> */}
           </Card>
         </Box>
 
