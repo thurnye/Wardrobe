@@ -1,3 +1,42 @@
 .Wardrobe {
     height: 100%;
+    .wardrobeContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        .closetContainer{
+            width: 75%;
+            height: inherit;
+        }
+        .infographicContainer{
+            width: 25%;
+            margin: 0 10px;
+        }
+        .displayMirror{
+            border: 1px solid grey;
+            height: 45vh;
+            margin-bottom: 10px;
+            flex: 0 1 auto;
+        }
+        .positions{
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+            span{
+                display: block;
+                background-color: black;
+                height: 20px;
+                width: 20px;
+                margin: 0 10px;  
+            }
+        }
+        .displayInfo{
+            height: 15vh;
+            border: 1px solid grey;
+            flex: 1 1 auto;
+        }
+    }
 }
